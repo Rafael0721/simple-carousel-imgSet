@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="carousel.css" type="text/css">
+  </head>
+  <body>
+    <div class="work-img">
+
+      <!-- previous/next arrow -->
+      <div id="previous" class="arrow-block-left">
+        <div class="arrow-left"></div>
+      </div>
+      <div id="next" class="arrow-block-right">
+        <div class="arrow-right"></div>
+      </div>
+
+      <!-- dot -->
+      <ul class="dot-group">
+        <li data-index="0" class="dot show"></li>
+        <li data-index="1" class="dot"></li>
+        <li data-index="2" class="dot"></li>
+        <li data-index="3" class="dot"></li>
+        <li data-index="4" class="dot"></li>
+        <li data-index="5" class="dot"></li>
+        <li data-index="6" class="dot"></li>
+        <li data-index="7" class="dot"></li>
+      </ul>
+
+      <!-- absolute position(img-1~9) -->
+      <!-- img1 實體(決定整個block高度) -->
+      <img src="img/hive_1.jpg" data-index="0" class="img img-real show" width="100%" height="auto">
+      <img src="img/hive_2.jpg" data-index="1" class="img img-abs" width="100%" height="auto">
+      <img src="img/hive_3.jpg" data-index="2" class="img img-abs" width="100%" height="auto">
+      <img src="img/hive_4.jpg" data-index="3" class="img img-abs" width="100%" height="auto">
+      <img src="img/hive_5.jpg" data-index="4" class="img img-abs" width="100%" height="auto">
+      <img src="img/hive_6.jpg" data-index="5" class="img img-abs" width="100%" height="auto">
+      <img src="img/hive_7.jpg" data-index="6" class="img img-abs" width="100%" height="auto">
+      <img src="img/hive_8.jpg" data-index="7" class="img img-abs" width="100%" height="auto">
+    </div>
+
+    <script src="carousel.js" language="javascript" type="text/javascript"></script>
+  </body>
+</html>
